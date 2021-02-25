@@ -32,7 +32,7 @@ def mod(num1, num2):
     """Return the remainder of num1 / num2."""
     return num1 % num2
 
-def add_multi(num1, num2, num3):
+def add_multi(num1, num2, num3=0):
     """ Return first two and multiply sum with the 3rd input"""
     #functions in a function!
     return multiply(add(num1,num2), num3)
